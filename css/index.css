@@ -219,6 +219,12 @@ img {
 .home button:hover {
   background-color: white;
 }
+@media (max-width: 500px) {
+  .home button {
+    width: 85%;
+    margin: 0 auto 30px;
+  }
+}
 .home .mainHeader {
   display: flex;
   flex-direction: column;
@@ -227,7 +233,8 @@ img {
 }
 @media (max-width: 500px) {
   .home .mainHeader {
-    width: auto;
+    width: 85%;
+    margin: 0 auto 30px;
   }
 }
 .home .mainHeader .headerContent {
@@ -243,6 +250,16 @@ img {
   .home .content-section {
     flex-wrap: nowrap;
     flex-direction: column;
+    width: 85%;
+    margin: 0 auto 30px;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .home .content-section {
+    width: 85%;
+    margin: 0 auto 30px;
+    padding-top: 20px;
   }
 }
 .home .content-section .text-content {
@@ -251,7 +268,7 @@ img {
 }
 @media (max-width: 500px) {
   .home .content-section .text-content {
-    width: 75%;
+    width: 100%;
   }
 }
 .home .content-section .img-content {
@@ -260,7 +277,7 @@ img {
 }
 @media (max-width: 500px) {
   .home .content-section .img-content {
-    width: 75%;
+    width: 100%;
   }
 }
 .home .content-section .img-content img {
@@ -300,6 +317,8 @@ img {
 @media (max-width: 500px) {
   .home .content-pick {
     flex-direction: column;
+    width: 85%;
+    margin: 0 auto 30px;
   }
 }
 .home .content-pick .destination {
@@ -308,9 +327,6 @@ img {
 }
 @media (max-width: 500px) {
   .home .content-pick .destination {
-    width: 75%;
+    width: 100%;
   }
-}
-body {
-  width: 100%;
 }
